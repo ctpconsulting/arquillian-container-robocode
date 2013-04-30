@@ -1,0 +1,3 @@
+== Robocode Arquillian Container
+
+Runs the robocode engine and deploys a Robot archive.
