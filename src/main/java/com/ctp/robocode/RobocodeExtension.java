@@ -8,6 +8,7 @@ public class RobocodeExtension implements LoadableExtension {
     @Override
     public void register(ExtensionBuilder builder) {
         builder.service(DeployableContainer.class, RobocodeContainer.class);
+        builder.observer(ArquillianBattleListener.class);
     }
 
 }

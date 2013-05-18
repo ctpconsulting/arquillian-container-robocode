@@ -26,7 +26,13 @@ public class RobocodeClientTest {
     }
 
     @Test
-    public void should_start_container() throws Exception {
+    @BattleResults(robot = "sample.Fire")
+    public void fire_should_win() throws Exception {
+    }
+
+    @Test
+    @BattleResults(robot = "com.ctp.robocode.DummyRobot", expectedRank = 2)
+    public void dummy_should_be_second() throws Exception {
     }
 
 }
