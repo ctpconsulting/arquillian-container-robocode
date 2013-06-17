@@ -85,7 +85,6 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>arquillian-container-robocode</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
